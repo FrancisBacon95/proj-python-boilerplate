@@ -7,17 +7,16 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-pandas = "*"
-numpy = "*"
-slack-sdk = "*"
-pandas-gbq = "*"
 python-dotenv = "*"
-tqdm = "*"
+ipykernel = "*"
+pandas = "*"
 requests = "*"
 matplotlib = "*"
-seaborn = "*"
-ipykernel = "*"
-
+tqdm = "*"
+gspread = "*"
+slack-sdk = "*"
+pandas-gbq = "*"
+google-cloud-bigquery = "*"
 
 [build-system]
 requires = ["poetry-core"]
